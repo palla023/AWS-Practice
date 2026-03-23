@@ -21,7 +21,7 @@ public class AwsSnsConfig {
         return SnsClient.builder()
                 .region(Region.US_EAST_1) // change if needed
                 .credentialsProvider(StaticCredentialsProvider.create(
-                        AwsBasicCredentials.create("AKIAVUQKSYHO2PDPPG4Q", "tTQy3arY9in8fe4XIqkMwUDaXmljdT0SFDaETAx+")
+                        AwsBasicCredentials.create("", "")
                 ) )
                 .build();
     }
