@@ -18,9 +18,9 @@ public class AwsSqsConfig {
     public SqsAsyncClient sqsAsyncClient() {
         return SqsAsyncClient.builder()
                 .region(Region.AP_SOUTH_1) // change if needed
-                .credentialsProvider(StaticCredentialsProvider.create(
-                        AwsBasicCredentials.create("AKIAVUQKSYHO2PDPPG4Q", "tTQy3arY9in8fe4XIqkMwUDaXmljdT0SFDaETAx+")
-                ) )
+//                .credentialsProvider(StaticCredentialsProvider.create(
+//                        AwsBasicCredentials.create("", "")
+//                ) )
                 .build();
     }
 
